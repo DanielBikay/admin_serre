@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "331498241066",
+    "firebase_url": "https://serre-c10a3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "serre-c10a3",
+    "storage_bucket": "serre-c10a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331498241066:android:0bf70099f66da9f5859753",
+        "android_client_info": {
+          "package_name": "com.example.serre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331498241066-rnbq5qbonhq5pnrouar22aq7ells83n7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwW5H5CgU6blrOcmNPYQ_TKv2aqyzK4dQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331498241066-rnbq5qbonhq5pnrouar22aq7ells83n7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "331498241066-r275igthg1rhmsm9fv6ejg3bvhmrjc46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.serre"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
