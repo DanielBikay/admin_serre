@@ -1,3 +1,4 @@
+// sensor_model.dart
 class SensorData {
   final DateTime date;
   final double value;

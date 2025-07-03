@@ -1,5 +1,6 @@
 // widgets/actionneur_card.dart
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class ActionneurCard extends StatelessWidget {
   final String title;
@@ -25,7 +26,10 @@ class ActionneurCard extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
-        onTap: () => onToggle(!isActive),
+        onTap: () {
+          HapticFeedback.lightImpact();
+          onToggle(!isActive);
+        },
         child: Padding(
           padding: EdgeInsets.all(16),
           child: Row(
